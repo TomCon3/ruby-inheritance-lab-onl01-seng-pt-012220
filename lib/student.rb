@@ -7,4 +7,9 @@ class Student < User
   
   def learn(Teacher.teach)
     @knowledge < Teacher.teach
+  end
+  
+  def knowledge
+    @knowledge
+  end
 end
